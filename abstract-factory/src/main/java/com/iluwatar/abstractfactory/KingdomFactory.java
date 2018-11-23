@@ -23,7 +23,7 @@
 package com.iluwatar.abstractfactory;
 
 /**
- * 
+ * 精灵国工厂接口
  * KingdomFactory factory interface.
  * 
  */

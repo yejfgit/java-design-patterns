@@ -23,7 +23,7 @@
 package com.iluwatar.abstractfactory;
 
 /**
- * 
+ * 城堡
  * Castle interface
  *
  */

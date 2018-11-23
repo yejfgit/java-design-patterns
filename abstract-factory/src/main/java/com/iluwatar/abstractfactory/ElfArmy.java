@@ -23,7 +23,7 @@
 package com.iluwatar.abstractfactory;
 
 /**
- * 
+ * 精灵军队
  * ElfArmy
  *
  */

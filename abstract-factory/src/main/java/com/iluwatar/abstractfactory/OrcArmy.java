@@ -23,7 +23,7 @@
 package com.iluwatar.abstractfactory;
 
 /**
- * 
+ * 兽人军队
  * OrcArmy
  *
  */

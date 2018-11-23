@@ -23,7 +23,7 @@
 package com.iluwatar.abstractfactory;
 
 /**
- * 
+ * 精灵城堡
  * ElfCastle
  *
  */

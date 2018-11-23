@@ -30,6 +30,7 @@ import java.util.function.Function;
 import java.util.stream.Stream;
 
 /**
+ * 结构抽象类
  * Abstract implementation of Document interface
  */
 public abstract class AbstractDocument implements Document {

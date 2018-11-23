@@ -23,7 +23,7 @@
 package com.iluwatar.abstractfactory;
 
 /**
- * 
+ * 兽人城堡
  * OrcCastle
  *
  */

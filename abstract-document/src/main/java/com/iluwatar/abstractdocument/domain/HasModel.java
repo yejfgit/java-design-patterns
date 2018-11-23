@@ -27,6 +27,7 @@ import java.util.Optional;
 import com.iluwatar.abstractdocument.Document;
 
 /**
+ * 模式
  * HasModel trait for static access to 'model' property
  */
 public interface HasModel extends Document {

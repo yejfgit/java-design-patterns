@@ -23,7 +23,7 @@
 package com.iluwatar.abstractfactory;
 
 /**
- * 
+ * 兽人工厂类
  * OrcKingdomFactory concrete factory.
  * 
  */

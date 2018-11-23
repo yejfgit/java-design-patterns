@@ -96,6 +96,7 @@ public class App {
   }
 
   /**
+   * 抽象工厂
    * The factory of kingdom factories.
    */
   public static class FactoryMaker {
@@ -133,6 +134,7 @@ public class App {
     App app = new App();
 
     LOGGER.info("Elf Kingdom");
+    //根据类型创建精灵工厂，设置国王，军队，城堡
     app.createKingdom(FactoryMaker.makeFactory(KingdomType.ELF));
     LOGGER.info(app.getArmy().getDescription());
     LOGGER.info(app.getCastle().getDescription());

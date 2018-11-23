@@ -27,6 +27,7 @@ import java.util.stream.Stream;
 import com.iluwatar.abstractdocument.Document;
 
 /**
+ * 零件
  * HasParts trait for static access to 'parts' property
  */
 public interface HasParts extends Document {

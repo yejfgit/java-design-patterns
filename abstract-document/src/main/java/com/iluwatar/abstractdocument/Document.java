@@ -27,6 +27,7 @@ import java.util.function.Function;
 import java.util.stream.Stream;
 
 /**
+ * 结构接口类
  * Document interface
  */
 public interface Document {

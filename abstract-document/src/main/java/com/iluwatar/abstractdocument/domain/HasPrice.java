@@ -27,6 +27,7 @@ import java.util.Optional;
 import com.iluwatar.abstractdocument.Document;
 
 /**
+ * 价格
  * HasPrice trait for static access to 'price' property
  */
 public interface HasPrice extends Document {
