@@ -53,7 +53,7 @@ public class App {
     User user = userConverter.convertFromDto(dtoUser);
     System.out.println("Entity converted from DTO:" + user);
 
-    Converter<UserDto, User> userConverter22 = new CommonConverter<>(dtoUser,new User());
+    Converter<UserDto, User> userConverter22 = new CommonConverter<>(UserDto.class,User.class);
     User user2 = userConverter22.convertFromDto(dtoUser);
     System.out.println("****************:" + user2);
 
