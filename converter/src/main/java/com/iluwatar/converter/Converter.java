@@ -50,6 +50,10 @@ public class Converter<T, U> {
     this.fromEntity = fromEntity;
   }
 
+  public static <F,T> void copyProperties(F from, T target){
+    PropertyUtils.copyProperties(from,target);
+  }
+
   /**
    * @param dto DTO entity
    * @return The domain representation - the result of the converting function application on dto entity.

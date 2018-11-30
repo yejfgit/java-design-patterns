@@ -17,11 +17,13 @@ public class CommonConverter<T, U> extends Converter<T, U>  {
     public CommonConverter(Class<T> tClass,Class<U> uClass) {
         super(t -> {
                     U entity = createInstance(uClass);
-                    PropertyUtils.copyProperties(t,entity);return entity;
+                    copyProperties(t,entity);
+                    return entity;
                 },
                 u -> {
                     T dto = createInstance(tClass);
-                    PropertyUtils.copyProperties(u,dto);return dto;
+                    copyProperties(u,dto);
+                    return dto;
                 });
     }
 
