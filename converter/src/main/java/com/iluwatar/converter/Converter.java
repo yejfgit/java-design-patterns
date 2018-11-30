@@ -34,6 +34,7 @@ import java.util.stream.Collectors;
  * of the same type, reducing boilerplate code to the absolute minimum.
  * @param <T> DTO representation's type
  * @param <U> Domain representation's type
+ * 转换器
  */
 public class Converter<T, U> {
 

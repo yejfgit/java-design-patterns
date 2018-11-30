@@ -36,6 +36,16 @@ import org.slf4j.LoggerFactory;
  * <p>
  * In this example we have two class hierarchies. One of weapons and another one of enchantments. We can easily
  * combine any weapon with any enchantment using composition instead of creating deep class hierarchy.
+ *
+ * *在继承上写作。桥模式也可以被认为是抽象的两层。
+ *使用Bridge，您可以将抽象与其实现解耦，以便两者可以独立地变化。
+ *< P>
+ *桥模式中的抽象（{@链接武器}）和实现
+ *{Link附魔}有它们自己的类层次结构。实现的接口
+ *可以在不影响客户的情况下进行更改。
+ *< P>
+ *在这个例子中，我们有两个类层次结构。一种武器和另一种魔法。我们可以很容易
+ *使用组合来组合任何武器和任何附魔，而不是创建深层类层次结构。
  * 
  */
 public class App {

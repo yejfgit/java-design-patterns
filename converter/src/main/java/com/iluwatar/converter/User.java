@@ -47,6 +47,9 @@ public class User {
     this.userId = userId;
   }
 
+  public User() {
+  }
+
   public String getFirstName() {
     return firstName;
   }
@@ -83,4 +86,21 @@ public class User {
     return "User{" + "firstName='" + firstName + '\'' + ", lastName='" + lastName + '\''
       + ", isActive=" + isActive + ", userId='" + userId + '\'' + '}';
   }
+
+  public void setFirstName(String firstName) {
+    this.firstName = firstName;
+  }
+
+  public void setLastName(String lastName) {
+    this.lastName = lastName;
+  }
+
+  public void setActive(boolean active) {
+    isActive = active;
+  }
+
+  public void setUserId(String userId) {
+    this.userId = userId;
+  }
 }
+

@@ -30,6 +30,9 @@ import org.slf4j.LoggerFactory;
  * Callback pattern is more native for functional languages where functions are treated as
  * first-class citizens. Prior to Java 8 callbacks can be simulated using simple (alike command)
  * interfaces.
+ *回调模式对于函数被视为
+ *一等公民。在Java之前，可以使用简单（类似命令）模拟8回调。
+ *接口。
  * 
  */
 public class App {

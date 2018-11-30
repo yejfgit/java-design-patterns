@@ -32,8 +32,12 @@ public class UserConverter extends Converter<UserDto, User> {
    * Constructor.
    */
   public UserConverter() {
-    super(userDto -> new User(userDto.getFirstName(), userDto.getLastName(), userDto.isActive(),
-        userDto.getEmail()),
+    super(userDto -> {
+              User user = new User();
+              PropertyUtils.copyProperties(userDto,user);
+              user.setUserId(userDto.getEmail());
+              return user;
+            },
         user -> new UserDto(user.getFirstName(), user.getLastName(), user.isActive(),
         user.getUserId()));
   }

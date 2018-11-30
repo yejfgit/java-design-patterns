@@ -34,7 +34,14 @@ import org.slf4j.LoggerFactory;
  * <p>
  * In this example we have sentences composed of words composed of letters. All of the objects can
  * be treated through the same interface ({@link LetterComposite}).
- * 
+ *复合模式是分区设计模式。复合模式描述了
+ *对象组以与对象的单个实例相同的方式进行处理。意图
+ *复合材料是将对象“组合”成树结构来表示部分整个层次结构。
+ *实现复合模式允许客户处理单个对象和组合
+ *一致。
+ *< P>
+ *在这个例子中，我们有由字母组成的句子。所有的对象都可以
+ *通过相同的接口进行处理（{@ Link LeTeLeope}）。
  */
 public class App {
 

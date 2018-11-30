@@ -26,6 +26,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
+ * 变焦
  * Zoom class implements its accept method
  */
 public class Zoom extends Modem {

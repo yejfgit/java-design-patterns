@@ -26,6 +26,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
+ * 海因斯
  * Hayes class implements its accept method
  */
 public class Hayes extends Modem {

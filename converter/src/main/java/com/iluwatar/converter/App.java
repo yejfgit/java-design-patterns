@@ -33,6 +33,11 @@ import java.util.List;
  * conversion between corresponding types (e.g. DTO and domain representations of the logically
  * isomorphic types). Moreover, the pattern introduces a common way of converting a collection of
  * objects between types.
+
+ *转换器模式是一种允许双向的通用方式的行为设计模式。
+ *对应类型（例如，DTO和逻辑上的域表示）之间的转换
+ *同构类型。此外，该模式引入了一种转换集合的通用方法。
+ *类型之间的对象。
  */
 public class App {
   /**
@@ -43,9 +48,14 @@ public class App {
   public static void main(String[] args) {
     Converter<UserDto, User> userConverter = new UserConverter();
 
+
     UserDto dtoUser = new UserDto("John", "Doe", true, "whatever[at]wherever.com");
     User user = userConverter.convertFromDto(dtoUser);
     System.out.println("Entity converted from DTO:" + user);
+
+    Converter<UserDto, User> userConverter22 = new CommonConverter<>(dtoUser,new User());
+    User user2 = userConverter22.convertFromDto(dtoUser);
+    System.out.println("****************:" + user2);
 
     ArrayList<User> users = Lists.newArrayList(new User("Camile", "Tough", false, "124sad"),
         new User("Marti", "Luther", true, "42309fd"), new User("Kate", "Smith", true, "if0243"));

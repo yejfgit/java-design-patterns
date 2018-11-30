@@ -85,10 +85,10 @@ public class App {
    * @param args command line args
    */
   public static void main(String[] args) {
-    demonstrateTreasureChestIteratorForType(RING);
-    demonstrateTreasureChestIteratorForType(POTION);
-    demonstrateTreasureChestIteratorForType(WEAPON);
-    demonstrateTreasureChestIteratorForType(ANY);
+    //demonstrateTreasureChestIteratorForType(RING);
+    //demonstrateTreasureChestIteratorForType(POTION);
+    //demonstrateTreasureChestIteratorForType(WEAPON);
+    //demonstrateTreasureChestIteratorForType(ANY);
 
     demonstrateBstIterator();
   }

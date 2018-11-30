@@ -101,6 +101,7 @@ public class App {
    */
   private static <T> Callable<T> lazyval(T value, long delayMillis) {
     return () -> {
+      System.out.println(Thread.currentThread().getName());
       Thread.sleep(delayMillis);
       log("Task completed with: " + value);
       return value;

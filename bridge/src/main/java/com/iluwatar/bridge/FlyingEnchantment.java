@@ -28,7 +28,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 
  * FlyingEnchantment
- *
+ * 飞行魅惑
  */
 public class FlyingEnchantment implements Enchantment {
 

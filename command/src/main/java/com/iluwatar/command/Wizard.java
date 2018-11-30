@@ -31,7 +31,7 @@ import java.util.LinkedList;
 /**
  * 
  * Wizard is the invoker of the commands
- *
+ *巫师
  */
 public class Wizard {
 

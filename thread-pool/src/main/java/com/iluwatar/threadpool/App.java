@@ -31,7 +31,16 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 
+ *线程池模式是创建多个线程以执行多个任务的模式，其中
+ *通常以队列的形式组织。执行任务的结果也可能被放置。
+ *在队列中，或者任务可能不会返回结果。通常，任务比
+ *线程。一旦线程完成任务，它将从队列中请求下一个任务
+ *直到所有任务完成。线程可以终止或休眠，直到有新的线程。
+ *任务可用。
+ *< P>
+ *在这个例子中，我们创建一个任务列表，列出要完成的工作。然后包装每个任务
+ *进入一个{@ Link Works}对象，该对象实现{@链接RunnEnab}。我们创造了一个
+ *{@link ExecutorService}具有固定数量的线程（线程池），并使用它们来执行
  * Thread Pool pattern is where a number of threads are created to perform a number of tasks, which
  * are usually organized in a queue. The results from the tasks being executed might also be placed
  * in a queue, or the tasks might return no result. Typically, there are many more tasks than

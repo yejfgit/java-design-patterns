@@ -32,7 +32,10 @@ package com.iluwatar.acyclicvisitor;
  * visited hierarchy is {@link Modem} and has two children {@link Hayes} and {@link Zoom} 
  * each one having its own visitor interface {@link HayesVisitor} and {@link ZoomVisitor} 
  * respectively. {@link ConfigureForUnixVisitor} and {@link ConfigureForDosVisitor} 
- * implement each derivative's visit method only if it is required 
+ * implement each derivative's visit method only if it is required
+ *
+ * 访问者设计模式，accept 接受访问者【访问者分配 1、单独某种类型的访问者（只能访问该类型的） 2、合并访问者（可以访问多个）】
+ *
  */
 public class App {
   

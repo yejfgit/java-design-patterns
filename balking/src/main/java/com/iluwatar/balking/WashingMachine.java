@@ -28,6 +28,7 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 洗衣机
  * Washing machine class
  */
 public class WashingMachine {
@@ -46,6 +47,7 @@ public class WashingMachine {
       } catch (InterruptedException ie) {
         ie.printStackTrace();
       }
+      System.out.println("2222222222222");
       task.run();
     });
   }
@@ -89,5 +91,4 @@ public class WashingMachine {
     washingMachineState = WashingMachineState.ENABLED;
     LOGGER.info("{}: Washing completed.", Thread.currentThread().getId());
   }
-
 }

@@ -65,6 +65,7 @@ public class WashingMachineTest {
 
     @Override
     public void executeAfterDelay(long interval, TimeUnit timeUnit, Runnable task) {
+      System.out.println("executeAfterDelay execute");
       this.task = task;
     }
   }

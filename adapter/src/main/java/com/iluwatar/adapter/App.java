@@ -43,7 +43,7 @@ package com.iluwatar.adapter;
  * captain. We have no time to make up a new ship! we need to reuse this {@link FishingBoat}. The
  * captain needs a rowing boat which he can operate. The spec is in {@link RowingBoat}. We will
  * use the Adapter pattern to reuse {@link FishingBoat}.
- *
+ * 类适配器模式（适配器类实现被适配类接口）；对象适配器模式（适配器类持有被适配器类的对象）
  */
 public class App {
 

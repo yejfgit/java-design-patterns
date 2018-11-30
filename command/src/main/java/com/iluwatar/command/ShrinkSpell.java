@@ -25,7 +25,7 @@ package com.iluwatar.command;
 /**
  * 
  * ShrinkSpell is a concrete command
- *
+ * 收缩咒
  */
 public class ShrinkSpell extends Command {
 

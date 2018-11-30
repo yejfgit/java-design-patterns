@@ -28,7 +28,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 
  * SoulEatingEnchantment
- *
+ * 灵魂魅力
  */
 public class SoulEatingEnchantment implements Enchantment {
 

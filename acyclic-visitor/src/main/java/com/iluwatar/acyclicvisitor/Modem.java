@@ -23,6 +23,7 @@
 package com.iluwatar.acyclicvisitor;
 
 /**
+ * 调制解调
  * Modem abstract class
  */
 public abstract class Modem {

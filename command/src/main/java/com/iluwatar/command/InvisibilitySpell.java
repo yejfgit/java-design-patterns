@@ -25,7 +25,7 @@ package com.iluwatar.command;
 /**
  * 
  * InvisibilitySpell is a concrete command
- *
+ * 隐形咒语
  */
 public class InvisibilitySpell extends Command {
 

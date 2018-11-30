@@ -25,7 +25,7 @@ package com.iluwatar.bridge;
 /**
  * 
  * Enchantment
- * 
+ * 魅惑
  */
 public interface Enchantment {
 

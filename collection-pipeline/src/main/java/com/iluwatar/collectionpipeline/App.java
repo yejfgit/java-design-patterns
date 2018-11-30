@@ -38,6 +38,13 @@ import org.slf4j.LoggerFactory;
  * you to create sophisticated programs where data flow from upstream to
  * downstream and is passed through a series of transformations.
  *
+ * *在命令式编程中，通常使用while循环和while循环。
+ *大多数数据处理。函数合成是一种简单的技术
+ *允许您对模块化功能进行排序，以创建更复杂的操作。
+ *通过序列运行数据时，将有一个收集管道。
+ *函数组合和集合管道模式一起启用
+ *创建复杂的程序，其中数据从上游流向
+ *下游，并通过一系列的转换。
  */
 public class App {
 

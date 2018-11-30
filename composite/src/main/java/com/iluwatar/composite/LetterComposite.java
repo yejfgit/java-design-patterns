@@ -26,7 +26,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 
+ *  复合材料
  * Composite interface.
  * 
  */

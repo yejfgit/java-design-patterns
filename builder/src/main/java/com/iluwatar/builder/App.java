@@ -48,6 +48,26 @@ import org.slf4j.LoggerFactory;
  * additional configuration for the {@link Hero} object can be done using the fluent
  * {@link Builder} interface. When configuration is ready the build method is called to receive
  * the final {@link Hero} object.
+ *Builder模式的目的是找到伸缩构造函数的解决方案。
+ *反模式。当对象增加时会出现伸缩构造函数反模式。
+ *构造函数参数组合导致构造函数的指数列表。代替使用
+ *许多构造函数，构建器模式使用另一个对象，一个构建器，它接收每个
+ *逐步初始化参数，然后立即返回所得到的构造对象。
+ *< P>
+ *构造器模式还有另一个好处。它可以用于包含平面数据的对象（HTML）
+ *代码，SQL查询，X.509证书…），也就是说，数据不容易编辑。这个
+ *数据类型不能一步一步地编辑，必须立即编辑。最佳施工方法
+ *这样的对象是使用生成器类。
+ *< P>
+ *在这个例子中，我们使用了Joshua Bloch在《有效》中描述的Builder模式变化
+ * Java第二版。
+ *< P>
+ *我们想构建{@link Hero}对象，但是它的构造很复杂，因为许多
+ *需要的参数。为了帮助用户，我们引入{@ Link Builder }类。{@链接英雄.Builder }
+ *在构造函数中使用最小参数来构建{@链接英雄}对象。之后
+ *可以使用fluent对{@link Hero}对象进行附加配置
+ *{Link Builder }接口。配置完成后，调用生成方法来接收
+ *最后的{@链接英雄}对象。
  * 
  */
 public class App {

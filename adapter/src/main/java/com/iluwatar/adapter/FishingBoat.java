@@ -29,12 +29,15 @@ import org.slf4j.LoggerFactory;
  *
  * Device class (adaptee in the pattern). We want to reuse this class.
  * Fishing boat moves by sailing.
- *
+ * 渔船
  */
 public class FishingBoat {
 
   private static final Logger LOGGER = LoggerFactory.getLogger(FishingBoat.class);
 
+  /**
+   * 帆
+   * */
   public void sail() {
     LOGGER.info("The fishing boat is sailing");
   }
