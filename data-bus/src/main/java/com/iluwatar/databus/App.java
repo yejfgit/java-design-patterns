@@ -55,6 +55,29 @@ import java.time.LocalDateTime;
  * <p>The {@code members} package contains example {@link Member} implementations.</p>
  * <p>The {@link StatusMember} demonstrates using the DataBus to publish a message
  * to the Data-Bus when it receives a message.</p>
+＊数据总线模式
+ *< P>
+ *@参见“HeRF=”“HTTP//WKI.C2.COM/？”“数据模式”> HTTP:/Wik.C2.COM/？DATABUS模式< / A>
+ *<P>数据总线模式提供了一种方法，其中应用程序的不同部分可以
+ *在彼此之间传递消息而不需要知道对方的存在。</P>
+ *<P>类似于{@代码ObServStudio }，成员用{@链接DATABUS }注册它们自己。
+ *然后可以接收发布到数据总线的每一个数据。成员
+ *可以对任何给定的消息作出反应或不。</P>
+ *>它允许对数据进行多对多的分布，因为可能有任意数量的数据。
+ *发布服务器到数据总线，以及接收数据的任何成员。所有成员
+ *将接收相同的数据，每个接收到给定数据的顺序是
+ *实现细节。</P>
+ *> P>成员可以退订数据总线以停止接收数据。
+ *P>此模式的示例实现同步数据总线，这意味着
+ *当数据发布到数据总线时，发布方法将不返回到
+ *所有成员已收到数据并返回。</P>
+ *< P> {@链接DATABOS}类是一个单独的。< /P>
+ *< P>数据总线成员必须实现{@链接成员}接口。< /P>
+ *> P>通过数据总线发布的数据必须实现{@链接数据类型}接口。</P>
+ *@ p> {@代码数据}包包含示例{@链接数据类型}实现。</P>
+ *< P> {@代码成员}包包含示例{@链接成员}实现。</P>
+ *< p> {@链接状态成员}演示如何使用DATABUS发布消息
+ *当数据总线接收到消息时。
  *
  * @author Paul Campbell (pcampbell@kemitix.net)
  */

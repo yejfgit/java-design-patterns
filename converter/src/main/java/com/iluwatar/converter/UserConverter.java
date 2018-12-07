@@ -34,7 +34,7 @@ public class UserConverter extends Converter<UserDto, User> {
   public UserConverter() {
     super(userDto -> {
               User user = new User();
-              PropertyUtils.copyProperties(userDto,user);
+              copyProperties(userDto,user);
               user.setUserId(userDto.getEmail());
               return user;
             },

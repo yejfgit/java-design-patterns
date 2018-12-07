@@ -27,6 +27,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Decorator that adds a club for the troll
+ * 杵状巨魔
  */
 public class ClubbedTroll implements Troll {
 

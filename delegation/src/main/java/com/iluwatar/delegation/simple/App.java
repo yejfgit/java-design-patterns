@@ -37,6 +37,16 @@ import com.iluwatar.delegation.simple.printers.HpPrinter;
  * {@link Printer}. The {@link PrinterController} class also implements {@link Printer}. However neither provide the
  * functionality of {@link Printer} by printing to the screen, they actually call upon the instance of {@link Printer}
  * that they were instantiated with. Therefore delegating the behaviour to another class.
+ *
+ *委托模式提供了一种机制，以抽象出所需操作的实现和控制。
+ *在本例中调用的类{@link PrinterController}不负责实际的所需操作，
+ *但是实际上被委托给助手类{@link CanonPrinter}、{@link EpsonPrinter}或{@link HpPrinter}。
+ *消费者没有或需要执行该操作的实际类的知识，只有
+ *他们正在调用的容器。
+ *在这个示例中，委托是{@link EpsonPrinter}、{@link HpPrinter}和{@link CanonPrinter}它们都实现
+ *{Link打印机}。{@ Link PrPrimeStule}类也实现{@链接打印机}。然而，既不提供
+ *通过向屏幕打印{@link Printer}的功能，它们实际上调用{@link Printer}的实例。
+ *它们是实例化的。因此，将行为委托给另一个类。
  */
 public class App {
 

@@ -35,7 +35,15 @@ import org.slf4j.LoggerFactory;
  * In this example we show how the simple {@link SimpleTroll} first attacks and then flees the battle.
  * Then we decorate the {@link SimpleTroll} with a {@link ClubbedTroll} and perform the attack again. You
  * can see how the behavior changes after the decoration.
- * 
+ *
+ *装饰器模式是一种更灵活的替代子类。装饰师班
+ *实现与目标相同的接口，并使用聚合来“装饰”调用到
+ *目标。使用装饰器模式可以更改类的行为。
+ ＊运行时。
+ *< P>
+ *在这个例子中，我们展示了简单的{@link SimpleTroll}如何首先攻击，然后逃离战斗。
+ *然后我们用{@link ClubbedTroll}装饰{@link SimpleTroll}并再次执行攻击。你
+ *可以看出装修后的行为如何变化。
  */
 public class App {
 

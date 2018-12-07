@@ -45,8 +45,9 @@ public class DataBus {
 
   /**
    * Register a member with the data-bus to start receiving events.
-   *
+   * 订阅
    * @param member The member to register
+   *
    */
   public void subscribe(final Member member) {
     this.listeners.add(member);
@@ -54,7 +55,7 @@ public class DataBus {
 
   /**
    * Deregister a member to stop receiving events.
-   *
+   * 取消订阅
    * @param member The member to deregister
    */
   public void unsubscribe(final Member member) {
@@ -63,7 +64,7 @@ public class DataBus {
 
   /**
    * Publish and event to all members.
-   *
+   * 接受消息
    * @param event The event
    */
   public void publish(final DataType event) {
